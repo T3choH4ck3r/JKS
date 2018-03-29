@@ -1,0 +1,223 @@
+/*@font-face {
+  font-family: 'BaskOldFace';
+  
+src: url('../fonts/BaskOldFace.woff') format('woff'),
+ 
+url('../fonts/BaskOldFace.ttf') format('truetype'),
+       
+url('../fonts/BaskOldFace.svg#BaskOldFace') format('svg');
+
+src: url('../fonts/BaskOldFace.eot');
+  
+src: url('../fonts/BaskOldFace.woff2') format('woff2'),
+      
+url('../fonts/BaskOldFace.eot?#iefix') format('embedded-opentype');
+ 
+font-weight: normal;
+  font-style: normal;
+}*/
+
+
+
+body
+{
+/*font-family:'BaskOldFace';*/
+font-weight:normal;
+position: relative;
+}
+body p{
+font-size: 15px;
+}
+#page
+{
+-webkit-box-shadow:0px 5px 10px #1c1c1c;
+-moz-box-shadow:0px 5px 10px #1c1c1c;
+box-shadow:0px 5px 10px #1c1c1c;
+}
+.container
+{
+width:970px;
+}
+
+.footer-line
+{
+
+/*background-color:#781114;*/
+border-radius:13px;
+background:#0c4f8c;
+padding:15px;
+color:white;
+border-top:3px solid #1791d0;
+text-align: center;
+}
+.footer-content
+{
+padding:15px;
+}
+.fdetails
+{
+border-left:5px solid #48c931;
+color:#717171;
+font-size:18px;
+}
+.about-us
+{
+font-size:20px;
+text-align:justify;
+margin-top:20px;
+}
+.flogo img
+{
+height:60px;
+}
+
+.cat-thumb img
+{
+border: 2px solid #A6B1E0;
+width:225px;
+height:225px;
+}
+
+.cat-thumb .title
+{
+color: #000;
+text-align:center;
+font-weight:bold;
+font-size:15px;
+}
+.head{
+	padding:20px 15px;
+}
+.hphone
+{
+text-align:right;
+font-size:16px;
+padding:5px;
+}
+.hemail
+{
+text-align:right;
+font-size:16px;
+padding:5px;
+}
+.empty
+{
+min-height:100px;
+}
+ul.jmenu
+{
+background-color:#1c1c1c;
+padding:0px;
+height:241px;
+padding-left: 40px; //Added Newly
+}
+ul.jmenu li
+{
+
+font-size:18px;
+padding:10px 0;
+
+list-style:none;
+
+}
+ul.jmenu li a
+{
+color:#48c931;
+padding-left:60px;
+font-family:BaskOldFace;
+text-decoration:none;
+}
+ul.jlmenu
+{
+
+display:inline-block;
+padding:0 190px;
+}
+ul.jlmenu li
+{
+
+font-size:18px;
+padding:5px 25px;
+float:left;
+list-style:none;
+
+}
+ul.jlmenu li a
+{
+color:#fff;
+
+font-family:BaskOldFace;
+}
+ul.jlmenu li a:hover
+{
+text-decoration:underline;
+}
+ul.jmenu li a:hover:before {
+    content: url(../img/bg.png); /* no need for qoutes */
+    display: block;
+float:left;
+padding-left:0px;
+
+}
+ul.jmenu li a:hover
+{
+padding-left:15px;
+}
+.header-row
+{
+background:url(../img/slider-1.jpg) no-repeat;
+}
+.menu
+{
+border-radius:13px;
+padding:0 15px;	
+/*background-color:#781114;*/
+background:#0c4f8c;
+padding:0px;
+height:40px;
+border-top:3px solid #1791d0;
+}
+.pro-title
+{
+color:#48c931;	
+}
+.pro-description
+{
+font-size:16px;
+}
+.pro-image
+{
+border:2px solid #781114;	
+}
+div.projects
+{
+padding-top:10px;
+padding-bottom:10px;	
+}
+.contact-title
+{
+font-weight:bold;
+font-size:18px;
+}
+.contact-name
+{
+font-weight:bold;
+font-size:16px;
+}
+.contact-address,.contact-phone,.contact-email
+{
+font-size:16px;
+}
+.ser-title
+{
+padding-top:10px;
+font-weight:bold;	
+font-size: 20px;
+}
+.aboutus ul {
+    font-size: 16px;
+}
+/* 15/02/2018*/
+.hmenu.col-md-3 {
+    width: 305px;
+}
